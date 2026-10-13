@@ -1,0 +1,13 @@
+name: ex-workflow
+
+on:
+ workflow_dispatch:
+ push:
+   branches:
+
+jobs:
+  job_ex1:
+    runs-on: ubuntu-latest
+
+    steps:
+    - run : echo "je teste l'exercice 1"
